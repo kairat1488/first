@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    header{
+        padding-left: 40px;
+
+    }
+    .aquaterapy img{
+        max-width: 70%;
+        display: flex;
+    }
+    .aquaterapy h3{
+        max-width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    header ul{
+        list-style: none;
+        color: white;
+        display: flex;
+        width: 255px;
+        height: 19px;
+        gap: 50px;
+        display: flex;
+        
+    }
+    header img{
+        width: 60px;
+        height: 60px;
+        margin-right: 75px;
+    
+    }
+}

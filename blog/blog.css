@@ -1,0 +1,173 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+    max-width: 1920px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    z-index: 11;
+    
+}
+body{
+    background: #162831;
+    position: relative;
+
+
+}
+.container{
+    max-width: 1298px;
+    position: relative;
+}
+header .container{
+    max-width: 1298px;
+    height: 60px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    margin-right: 214px;
+
+}
+header ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    width: 655px;
+    height: 19px;
+    gap: 50px;
+    display: flex;
+    
+}
+header li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+}
+header button{
+    width: 155px;
+    height: 36px;
+    padding: 9px 15px 9px 15px;
+    gap: 10px;
+    border-radius: 3px;
+    border: none;
+    background: #018ABE;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 214px;
+}
+.block{
+    width: 96px;
+height: 30px;
+    color: white;
+padding: 6px 12px 5px 12px;
+gap: 10px;
+border-radius: 5px;
+opacity: 0px;
+    background: #018ABE;
+    border: none;
+    position: absolute;
+    left: 312px;
+    margin-bottom: 45px;
+}
+.title h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+font-family: El Messiri;
+font-size: 42px;
+font-weight: 700;
+line-height: 58.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    color: white;
+    width: 450px;
+height: 59px;
+top: 180px;
+left: 735px;
+gap: 0px;
+opacity: 0px;
+
+}
+.formate{
+    width: 526px;
+height: 501px;
+top: 299px;
+left: 312px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+
+}
+.formate h3{
+    position: absolute;
+    top: 324px;
+    left: 312px;
+    width: 336px;
+height: 34px;
+margin-top: 45px;
+gap: 0px;
+opacity: 0px;
+    color: white;
+font-family: El Messiri;
+font-size: 24px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: left
+
+
+}
+.formate .first{
+    position: absolute;
+    width: 526px;
+height: 362px;
+top: 440px;
+left: 312px;
+gap: 0px;
+opacity: 0px;
+color: white;
+
+font-family: Proxima Nova;
+font-size: 16px;
+font-weight: 300;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+section img{
+    position: absolute;
+    left: 972px;
+    top: 352px;
+}
+footer{
+    margin-top: 161px;
+    margin-bottom: 50px;
+}
+footer p{
+    color: white;
+    display: inline-block
+}
+.data{
+    text-align: start;
+    margin-right: 1010px;
+}
+.made__by{
+    text-align: end;
+}
+button{
+    cursor: pointer;
+}
